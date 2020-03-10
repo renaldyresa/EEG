@@ -1,5 +1,3 @@
 
-*.lock
-*.ide
-*.ide-shm
-*.ide-wal
+mindset files/ThinkGear SDK for .NET/libs/NLog.LICENSE.txt
+mindset files/ThinkGear SDK for .NET/Sample Projects/HelloEEG/.vs/HelloEEG/v16/Server/sqlite3/db.lock
