@@ -41,7 +41,7 @@ namespace testprogram {
         private Button btnDisconnect;
         private Thread thread;
         private delegate void updateAttention();
-        private int sumAplha= 0, sumBeta=0 , sumTheta=0, fatigue=0;
+        private double sumAplha= 0, sumBeta=0 , sumTheta=0, fatigue=0;
         private int lowal = 0, highal = 0, lowbeta = 0, highbeta = 0, theta = 0;
         private Label txtFatigue;
         private Label valueFatigue;
@@ -49,6 +49,24 @@ namespace testprogram {
         public Program()
         {
             InitializeComponent();
+
+            StringBuilder csvcontent = new StringBuilder();
+            csvcontent.AppendLine("Attention, Meditaition, Blink,  Low Alpha, High Alpha, Low Beta, High Beta, Theta, Delta");
+            string csvpath = "E:\\test.csv";
+            for(int i=0; i<10 ;  i++)
+            {
+                csvcontent.AppendLine(
+                        "att" + i + ","+
+                        "med" + i + ","+
+                        "lalp" + i + "," +
+                        "halp" + i + "," +
+                        "lbeta" + i + "," +
+                        "hbeta" + i + "," +
+                        "delta" + i + "," +
+                        "theta" + i + "," 
+                        );
+            }
+            File.AppendAllText(csvpath, csvcontent.ToString());
         }
 
 
@@ -111,7 +129,10 @@ namespace testprogram {
 
             /* Loops through the newly parsed data of the connected headset*/
             // The comments below indicate and can be used to print out the different data outputs. 
-            
+
+            StringBuilder csvcontent = new StringBuilder();
+            csvcontent.AppendLine("Attention, Meditaition, Blink,  Low Alpha, High Alpha, Low Beta, High Beta, Theta, Delta");
+            string csvpath = "E:\\test.csv";
 
             for (int i = 0; i < tgParser.ParsedData.Length; i++)
             {
@@ -247,7 +268,10 @@ namespace testprogram {
                     catch (Exception ex) { }
                     //Console.WriteLine("EegPowerTheta Value:" + tgParser.ParsedData[i]["EegPowerTheta"]);
 
-                }                      
+                }
+
+                fatigue = (sumAplha + sumTheta) / sumBeta;
+                Console.WriteLine("Nilai Fatigue : " + fatigue);
             }
 
         }
@@ -638,8 +662,7 @@ namespace testprogram {
 
         private void CalFatigue()
         {
-            if(sumBeta != 0)
-            fatigue = (sumAplha + sumTheta) / sumBeta;
+            
             Console.WriteLine("Nilai Fatigue : " + fatigue);
             valueFatigue.Text = "" + fatigue;
             Console.WriteLine("Low Alpha : " + lowal);

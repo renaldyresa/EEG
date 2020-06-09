@@ -36,3 +36,17 @@ C:\Users\Resa\Documents\EEG\mhacks4-master\mindset files\ThinkGear SDK for .NET\
 C:\Users\Resa\Documents\EEG\mhacks4-master\mindset files\ThinkGear SDK for .NET\Sample Projects\HelloEEG\obj\x86\Debug\HelloEEG.csproj.CopyComplete
 C:\Users\Resa\Documents\EEG\mhacks4-master\mindset files\ThinkGear SDK for .NET\Sample Projects\HelloEEG\obj\x86\Debug\ConsoleApplication.exe
 C:\Users\Resa\Documents\EEG\mhacks4-master\mindset files\ThinkGear SDK for .NET\Sample Projects\HelloEEG\obj\x86\Debug\ConsoleApplication.pdb
+C:\Users\Resa\Documents\GitHub\EEG\mindset files\ThinkGear SDK for .NET\Sample Projects\HelloEEG\bin\Debug\ConsoleApplication.exe.config
+C:\Users\Resa\Documents\GitHub\EEG\mindset files\ThinkGear SDK for .NET\Sample Projects\HelloEEG\bin\Debug\ConsoleApplication.exe
+C:\Users\Resa\Documents\GitHub\EEG\mindset files\ThinkGear SDK for .NET\Sample Projects\HelloEEG\bin\Debug\ConsoleApplication.pdb
+C:\Users\Resa\Documents\GitHub\EEG\mindset files\ThinkGear SDK for .NET\Sample Projects\HelloEEG\bin\Debug\ThinkGear.dll
+C:\Users\Resa\Documents\GitHub\EEG\mindset files\ThinkGear SDK for .NET\Sample Projects\HelloEEG\bin\Debug\Jayrock.Json.dll
+C:\Users\Resa\Documents\GitHub\EEG\mindset files\ThinkGear SDK for .NET\Sample Projects\HelloEEG\bin\Debug\NLog.dll
+C:\Users\Resa\Documents\GitHub\EEG\mindset files\ThinkGear SDK for .NET\Sample Projects\HelloEEG\bin\Debug\NLog.xml
+C:\Users\Resa\Documents\GitHub\EEG\mindset files\ThinkGear SDK for .NET\Sample Projects\HelloEEG\obj\x86\Debug\HelloEEG.csprojAssemblyReference.cache
+C:\Users\Resa\Documents\GitHub\EEG\mindset files\ThinkGear SDK for .NET\Sample Projects\HelloEEG\obj\x86\Debug\testprogram.Program.resources
+C:\Users\Resa\Documents\GitHub\EEG\mindset files\ThinkGear SDK for .NET\Sample Projects\HelloEEG\obj\x86\Debug\HelloEEG.csproj.GenerateResource.cache
+C:\Users\Resa\Documents\GitHub\EEG\mindset files\ThinkGear SDK for .NET\Sample Projects\HelloEEG\obj\x86\Debug\HelloEEG.csproj.CoreCompileInputs.cache
+C:\Users\Resa\Documents\GitHub\EEG\mindset files\ThinkGear SDK for .NET\Sample Projects\HelloEEG\obj\x86\Debug\HelloEEG.csproj.CopyComplete
+C:\Users\Resa\Documents\GitHub\EEG\mindset files\ThinkGear SDK for .NET\Sample Projects\HelloEEG\obj\x86\Debug\ConsoleApplication.exe
+C:\Users\Resa\Documents\GitHub\EEG\mindset files\ThinkGear SDK for .NET\Sample Projects\HelloEEG\obj\x86\Debug\ConsoleApplication.pdb
